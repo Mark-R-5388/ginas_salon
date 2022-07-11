@@ -46,6 +46,7 @@ a {
 /* Navbar */
 nav {
 	background-color: rgb(233, 112, 56);
+	box-shadow: 1px 6px 8px rgba(53, 53, 53, 0.425);
 	padding: 1rem 0;
 	top: 0;
 	left: 0;
@@ -94,3 +95,49 @@ nav {
 }
 
 /* Services Section */
+.services_flex_container {
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.services_flex_item_container {
+	margin: 1rem;
+	padding: 1rem 0;
+	width: 300px;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.service_image_container {
+	width: 10rem;
+	height: 10rem;
+	border: 1px solid blue;
+}
+
+/* Footer */
+footer {
+	background-color: rgb(233, 112, 56);
+}
+
+.footer_responsive_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_image_container {
+	width: 8rem;
+	height: 8rem;
+	background-color: blue;
+}
+
+.footer_contact_container {
+	display: flex;
+	flex-direction: column;
+}
