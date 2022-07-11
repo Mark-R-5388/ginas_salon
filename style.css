@@ -1,0 +1,96 @@
+body,
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* General styles */
+.responsive_container {
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+section {
+	padding: 6rem 0;
+}
+
+.section_title {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+p {
+	letter-spacing: 0.65;
+	line-height: 1.5;
+}
+
+a {
+	margin: 0 0.5rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #000;
+}
+/* Navbar */
+nav {
+	background-color: rgb(233, 112, 56);
+	padding: 1rem 0;
+	top: 0;
+	left: 0;
+	position: sticky;
+}
+
+.navbar_responsive_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar_logo_container {
+	background-color: blue;
+	width: 10rem;
+	height: 10rem;
+}
+
+.links_container > a:first-child {
+	margin-left: 0;
+}
+
+.links_container > a:last-child {
+	margin-right: 0;
+}
+
+/* Main Container */
+
+/* About Section */
+.about_responsive_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about_image_container {
+	width: 45%;
+	max-width: 30rem;
+	height: 20rem;
+	background-color: blue;
+}
+
+.about_content_container {
+	padding-left: 1rem;
+	width: 55%;
+}
+
+/* Services Section */
