@@ -12,6 +12,14 @@ html {
 	margin: 0 auto;
 }
 
+.about_responsive_container,
+.services_responsive_container,
+.contact_container {
+	background-color: rgba(233, 112, 56, 0.075);
+	padding: 4rem 0;
+	box-shadow: 1px 4px 6px rgba(53, 53, 53, 0.425);
+}
+
 section {
 	padding: 6rem 0;
 }
@@ -45,7 +53,7 @@ a {
 }
 /* Navbar */
 nav {
-	background-color: rgb(233, 112, 56);
+	background-color: rgb(250, 144, 94);
 	box-shadow: 1px 6px 8px rgba(53, 53, 53, 0.425);
 	padding: 1rem 0;
 	top: 0;
@@ -54,6 +62,8 @@ nav {
 }
 
 .navbar_responsive_container {
+	box-sizing: border-box;
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -77,9 +87,12 @@ nav {
 
 /* About Section */
 .about_responsive_container {
+	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .about_image_container {
@@ -120,9 +133,22 @@ nav {
 	border: 1px solid blue;
 }
 
+/* Contact */
+.contact_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.contact_container_item {
+	width: 10rem;
+	border: 1px solid green;
+	margin: 1rem 0.5rem;
+}
+
 /* Footer */
 footer {
-	background-color: rgb(233, 112, 56);
+	background-color: rgb(250, 144, 94);
 }
 
 .footer_responsive_container {
