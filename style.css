@@ -230,7 +230,7 @@ main {
 
 .service_image {
 	position: absolute;
-	border-radius: 100%;
+
 	border: 2px solid rgb(250, 144, 94);
 
 	top: 0;
