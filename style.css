@@ -174,22 +174,28 @@ main {
 		padding-right: 0;
 		flex-direction: column;
 	}
+}
+.about_image_container {
+	margin-bottom: 2rem;
+	max-width: 95%;
+	height: 20rem;
+}
 
-	.about_image_container {
-		margin-bottom: 2rem;
-		max-width: 95%;
-		height: 20rem;
-	}
+.about_content_container {
+	width: 95%;
+	text-align: center;
+}
 
+.about_content_container h1 {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
 	.about_content_container {
-		width: 95%;
-		text-align: center;
-	}
-
-	.about_content_container h1 {
-		border: none;
-		margin: 0;
-		padding: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
